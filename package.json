@@ -25,6 +25,7 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
   },
   "dependencies": {
-    "simple-line-icons": "^2.3.2"
+    "simple-line-icons": "^2.3.2",
+    "express": "4.13.3"
   }
 }
