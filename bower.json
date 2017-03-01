@@ -1,0 +1,17 @@
+{
+  "name": "android school cuu",
+  "description": "Landing page for android school",
+  "authors": [
+    "thesnowgoose <lcarrasco@nearsoft.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
