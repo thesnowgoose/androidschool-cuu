@@ -16,9 +16,8 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.team-member {
-  width: 25%;
-  display: inline-block;
+.main-layout {
+  min-height: 950px;
 }
 .img-member {
   width: 150px;
@@ -52,6 +51,23 @@
 }
 #mentors .container {
   font-size: 0;
+  width: 1222px;
+}
+.team-member {
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .team-member {
+    width: 20%;
+  }
+}
+@media (max-width: 767px) {
+  .team-member {
+    width: 100% !important;
+  }
+  #mentors .container {
+    width: 100%;
+  }
 }
 .help {
   font-size: 20px;
