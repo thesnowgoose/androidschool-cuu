@@ -7,8 +7,8 @@
   bottom: 0;
   margin-bottom: 2em;
   padding: 15px;
-  background-color: #222;
-  color: #fff;
+  background-color: @gray-darker;
+  color: @gray-lighter;
   border-radius: 6px;
   z-index: 1;
 }
@@ -494,6 +494,13 @@ footer {
     }
 }
 
+.btn-inline {
+  color: white;
+  border: 1px solid;
+  background-color: @theme-primary;
+  border-color: @theme-primary;
+}
+
 .btn {
     .alt-font;
     border-radius: 300px;
@@ -526,6 +533,11 @@ img::selection {
 img::-moz-selection {
     color: white;
     background: transparent;
+}
+
+.selected-topics {
+  display: flex;
+  justify-content: space-between;
 }
 
 body {
